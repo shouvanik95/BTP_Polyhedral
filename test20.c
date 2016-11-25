@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 
 	for(int i=1; i<10; i++) {
 		for(int j=0; j<10; j++){
-			b[i][j]=b[i-1][j+1];
+			b[i][j]=b[i-1][j-1];
 			a[i][j] = a[i-1][j-2];
 		}
 	}
