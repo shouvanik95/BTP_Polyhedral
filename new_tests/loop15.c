@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 		for(j=1;j<11;j++)
 		{
 			a[i+3][j+3]=b[i][j];
-			b[i+1][j+4]=a[i][j];
+			b[2*i+2][4*j-3]=a[i][j];
 		}
 	#pragma endscop
 	return 0;
